@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.unstyled li a {
+  list-style: none;
+  text-decoration: none;
+}
+a.unstyled {
+  list-style: none;
+  text-decoration: none;
+}
+.carousel-item {
+  max-height: 75vh;
+}
+
+.carousel_ind li {
+  color: black;
+  background: black;
+}
+
+.carousel_ind .active {
+  background: orange;
+}
+
+.images_1 {
+  background: url(../img/img_1.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 75vh;
+}
+
+.images_2 {
+  background: url(../img/img_2.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 75vh;
+}
+.images_3 {
+  background: url(../img/3.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 75vh;
+}
+img.img_client{
+  width:120px;
+  border-radius:50%;
+}
+ol.carousel_ind_2 li{
+  width: 5px;
+  height: 5px;
+  background: black;
+  padding: 7px;
+  border-radius:50%;
+}
+ol.carousel_ind_2 li.active{
+  background:#007bff;
+}
+.social_icon li a i{
+  list-style: none;
+  text-decoration: none;
+}
+.social_icon li {
+    margin:5px;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    color: white;
+}
+.navbar_style {
+    background: #1a19143b;
+    color: black;
+}
+html{
+  scroll-behavior: smooth;
+}
